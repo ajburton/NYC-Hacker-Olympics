@@ -1,0 +1,10 @@
+THE PUZZLE: GIVEN THIS STRING:
+
+iirytroyppytpeppowuiyoiuypipiyuyotyoiwiytorouqyiepyirueuiprpptwyiroqwtuyipourrrourorwipowiorutpwtwruuioquteorioriyutwqyyprptuqqquuituyywyuoewtrppqwrtiiruirpwyptpuoyyoeyerpqiotuieripurouwuwyuwrworowitoepoypeipeypiireeorrwripuuteoitpuutturruwiyryeetyrioweytueqrrrtotrpiqetoyepoipiwrwpppiritupwipruooiepoweypiuwrqywuuwyiroqpqpruioopuiuerputpwwuuiqwpiroewrtwiqerteoyeqtutwoeoipioiuqiiiouuoqtuuwtuwiiqwppqitywuqpuutrqiyoeuuutwrwtoqrqyoeyoiporuuioiwryoeruypreprqroiyuqwtuyoytoerwqryeeripryieypiwqirtriurueypiuyuypriuiwptywppupoioyrewooytreteeriiwroietuwypieeeeeqpiiiwrirtppoeyiwpooyyporpruwuoriiyowuytiwpwpryeywotoyirqypyypoeptiuwwoyprquoetepptorwiewprpiywwtuieeiweytrrwiqtwotioryoiptyyyuriiqiyroeeiqepwteuwptpruuypipieuoiiuuweeuryuuowporrooyywyyrryriqyirooitirueruptotpryoqtipippyptiurwyiryooywtryyuurtrutwqiqiiiqwouyeooueoturuowiuwrtruwwiupwopwweoo
+
+KEY:
+
+* You must translate the letters into numbers, based on the QWERTY keyboard layout, where Q = 0 and P = 9.
+* You must then split every number in the string into pairs, remove all of the non-unique 2-digit numbers and all duplicates. (20 is not the same as 02, for example 019210290120 would become 92,10,29,20 - note that since 01 was in the original string twice, we did not include it in the output)
+* Add up each of the unique number pairs (2 + 0 = 2) and concatenate the resulting sums (20,18 yields 29 since 0+2 = 2 and 1+8=9)
+* The result is a 10-digit phone number -Send an SMS to the resulting 10-digit number, and you will receive the registration password to go register at http://hackerolympics.eventbrite.com/-
